@@ -1,13 +1,15 @@
-import React from 'react'
-import HomeScreen from './HomeScreen/HomeScreen'
-import "antd/dist/antd.css"
+import React from "react";
+// import HomeScreen from "./HomeScreen/HomeScreen";
+// import "antd/dist/antd.css";
+import Convert from "./Html convert/Convert";
 
 const App = () => {
   return (
     <div>
-      <HomeScreen />
+      {/* <HomeScreen /> */}
+      <Convert />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
