@@ -1,6 +1,5 @@
 import React from "react";
-import HomeScreen from "./HomeScreen/HomeScreen";
-import "antd/dist/antd.css";
+import HomeScreen from "./components/image-slider/image-slider.component";
 
 const App = () => {
   return (
